@@ -9,3 +9,14 @@ https://github.com/aichallenge/aichallenge/wiki
 Copyright (C) 2011 FIXME
 
 Distributed under the Eclipse Public License, the same as Clojure.
+
+Project using Emacs, Leiningen and Slime/Swank
+
+Autodoc used for project API generation
+- using autodoc 0.8.0-SNAPSHOT as earlier versions depended on Clojure 1.1.0 and this project uses 1.2.1.
+-- http://clojars.org/org.clojars.rayne/autodoc
+- .gitignore file update to ommit autodoc folder
+
+project.clj using example leiningen project file
+-- https://github.com/technomancy/leiningen/blob/stable/sample.project.clj
+
